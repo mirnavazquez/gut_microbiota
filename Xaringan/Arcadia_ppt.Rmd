@@ -375,7 +375,7 @@ Exploring the **list_of_operons_417647** file.
 
 ```{r  echo=TRUE,message=FALSE, warning=FALSE}
 Operon_mapper<-read_delim("417647/list_of_operons_417647", delim="\t") %>%
-  fill(Operon)
+  fill(Operon) # Fill NA values with the previous value in a column
 ```
 
 
