@@ -10,4 +10,4 @@ I started my search by looking for these three types of mobile elements.
 
 The scripts are in a directory called [R](https://github.com/mirnavazquez/gut_microbiota/tree/main/R).
 
-# Complete description of the approche can be found [here](https://mirnavazquez.netlify.app/media/gut_microbiota#1).
+# You can find a complete description of the approach [here](https://mirnavazquez.netlify.app/media/gut_microbiota#1).
