@@ -49,7 +49,7 @@ class: right, middle, inverse, titular
 
 # Mobile genetic elements (MGEs) in gut metagenomes
 
-In the beginning, the mobile genetic elements were associated with pathogenic strains; however, this has changed with time [Dobrindt et al.2004](https://pubmed.ncbi.nlm.nih.gov/15100694/). For example, an immense diversity of phages has been described in the ocean, suggesting that these mobile elements might play a relevant role in microbial communities, working as seed banks for adaptive genes, which any community member can potentially acquire ([Fancello et al.2011](https://pubmed.ncbi.nlm.nih.gov/21816767/); [Modi et al.2013](https://pubmed.ncbi.nlm.nih.gov/23748443/); [Subirats et al.2016](https://pubmed.ncbi.nlm.nih.gov/27312355/)).
+In the beginning the mobile genetic elements were associated with pathogenic strains; however, this has changed with time [Dobrindt et al.2004](https://pubmed.ncbi.nlm.nih.gov/15100694/). For example, an immense diversity of phages has been described in the ocean, suggesting that these mobile elements might play a relevant role in microbial communities working as seed banks for adaptive genes, which any community member can potentially acquire ([Fancello et al.2011](https://pubmed.ncbi.nlm.nih.gov/21816767/); [Modi et al.2013](https://pubmed.ncbi.nlm.nih.gov/23748443/); [Subirats et al.2016](https://pubmed.ncbi.nlm.nih.gov/27312355/)).
 
 I started my search by looking for these three types of mobile elements.
 
@@ -109,7 +109,7 @@ nohup isescan.py --seqfile 0118A1023.contigs.fa --output isescan_gut_microbiota 
 
 ---
 
-# Exploring the output of **ISEScan**
+# Explore the output of **ISEScan**
 
 - The program uses [FragGeneScan](https://pubmed.ncbi.nlm.nih.gov/20805240/) to make the protein prediction, so one first exciting thing to look at is **how many proteins were inferred?** 
 
@@ -171,7 +171,7 @@ The most abundant element is:
 
 # Complete and partial elements
 
-Some of the IS elements can be **incomplete**, which may reflect ancestral transposition events, ([Siguier et al., 2014](https://academic.oup.com/femsre/article/38/5/865/496682)) suggesting that the rest of the key sequence features were lost over time.
+Some of the IS elements can be **incomplete**, which may reflect ancestral transposition events ([Siguier et al., 2014](https://academic.oup.com/femsre/article/38/5/865/496682)) suggesting that the rest of the key sequence features were lost over time.
 
 Therefore, I focused at first on the complete elements, considering they might be more **recent** and **active** in the community. 
 
@@ -184,10 +184,11 @@ Therefore, I focused at first on the complete elements, considering they might b
 - Which ISs are complete?
 
 ```{r, echo=T}
-Insertion %>%
+Complete<-Insertion %>%
   filter(type == "c") %>% # Filter the rows that had a "c" in the type column, that stands for complete
   count(family) %>%
   arrange(-n)
+head(Complete)
 ```
 
 ]
@@ -202,17 +203,17 @@ The most abundant elements that are also **complete** and probably more recent a
 ]
 
 ---
-# **New hypothesis**
+# **New hypothesis!!!**
 
 - What if there are **partial** sequences that also contain transposases? 
  
-- Maybe the rest of the sequence is highly divergent, and that is why we can not find it matched to the databases; therefore, the sequences are not classified as complete?
+- Maybe the rest of the sequence is highly divergent, and that is why we can not find any matches to the databases; therefore, the sequences are classified as partial?
 
 - If they have transposases, that might mean that they must be elements that could be actively moving something in the community, but they are divergent and new, and the program can not classify them.
 
 ---
 
-# Exploring the output of **ISEScan** to look for potential new elements.
+# Explore the output of **ISEScan** to look for potential new elements.
 
 - I run InterproScan to identify transposases domains in the sequences that were predicted with  [FragGeneScan](https://pubmed.ncbi.nlm.nih.gov/20805240/) by **ISEScan**.
 
@@ -233,7 +234,7 @@ list_partial<-Insertion %>%
 
 ---
 
-# Exploring the output of **ISEScan** to look for potential new elements.
+# Explore the output of **ISEScan** to look for potential new elements.
 
 - I read the output and filter the sequences based on the list.
 
@@ -306,7 +307,7 @@ integron_finder --local-max --func-annot 0118A1023.contigs.fa
 
 
 ---
-# Exploring **Integron Finder** output
+# Explore **Integron Finder** output
 
 The output of the program contain 3 files:
 
@@ -317,7 +318,7 @@ The output of the program contain 3 files:
 - **integron_finder.out**: A copy standard output. 
 
 ---
-# Exploring **Integron Finder** output
+# Explore **Integron Finder** output
 
 Lets see the **0118A1023.contigs.integrons** file:
 
@@ -327,7 +328,7 @@ integrons<-read_delim("../data/0118A1023.contigs.integrons", delim = "\t",
 ```
 
 ```{r  echo=F,  eval=T}
- integrons %>%
+integrons %>%
   DT::datatable(class = "compact", rownames = FALSE,
                 options = list(dom = 'tBp', pageLength = 3, scrollX = TRUE), editable = 'cell',
                 width = '95%')
@@ -336,17 +337,15 @@ integrons<-read_delim("../data/0118A1023.contigs.integrons", delim = "\t",
 Integron finder can predict three types of elements described in [Cury et al., 2016](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4889954/):
 
 - **Complete integrons**: Include an integrase and at least one attC site
-
 - **CALIN**: The clusters of attC sites lacking integron-integrases (CALIN) are composed of at least two attC sites.
-
 - **In0**: The In0 elements are composed of an integron integrase and no attC sites.
 
 In this metagenome I was only able to identify two **CALIN** elements.
 
 ---
-# **New hypothesis**
+# **New hypothesis!!!**
 
-- **What genes are present in the **qb307082014_I_scaffold_18**?**
+- **What genes are present in qb307082014_I_scaffold_18?**
 
 - Exploring the neighborhood genes to the **CALIN** element would tell us maybe more about **what are these sequences doing** and **why are they potentially important for the environment?**  
 
@@ -389,7 +388,7 @@ Operon_mapper<-read_delim("../data/417647/list_of_operons_417647", delim="\t") %
 ---
 # Operon Mapper output
 
-By manually looking at the **list_of_operons_417647** file I found a equence that is associated to a transposase is [COG2826](https://www.ncbi.nlm.nih.gov/research/cog/cog/COG2826/), and was found in the **qb307082014_I_scaffold_18** scaffold. Suggesting is the one infered by **Integron Finder**.
+By manually looking at the **list_of_operons_417647** file I found a sequence that is associated to a transposase is [COG2826](https://www.ncbi.nlm.nih.gov/research/cog/cog/COG2826/), and was found in the **qb307082014_I_scaffold_18** scaffold. Suggesting is the one inferred by **Integron Finder**.
 
 ```{r  echo=TRUE, message=FALSE, warning=FALSE}
 COG2826<-read_delim("../data/417647/list_of_operons_417647", delim="\t") %>%
@@ -430,9 +429,9 @@ neighbour_genes %>%
 
 - The gene in operon 9 has a non identidied function, I extracted the sequence and make a web blast search.
 
-- The best hit at the NCBI was [accessory regulator AgrC](https://www.ncbi.nlm.nih.gov/protein/EGO9012381.1?report=genbank&log$=protalign&blast_rank=2&RID=4R5T83X5013). The same protein at UniProt was [A0A0K2MC93](https://www.uniprot.org/uniprot/A0A0K2MC93), which is classified by Gene Ontology database as [GO:0000155](https://www.ebi.ac.uk/QuickGO/term/GO:0000155): 
+- The best hit at the NCBI database was [accessory regulator AgrC](https://www.ncbi.nlm.nih.gov/protein/EGO9012381.1?report=genbank&log$=protalign&blast_rank=2&RID=4R5T83X5013). The same protein at UniProt was [A0A0K2MC93](https://www.uniprot.org/uniprot/A0A0K2MC93), which is classified by Gene Ontology database as [GO:0000155](https://www.ebi.ac.uk/QuickGO/term/GO:0000155): 
 
-- Catalysis of the phosphorylation of a histidine residue in response to detection of an extracellular signal such as a chemical ligand or change in environment, to initiate a change in cell state or activity. The two-component sensor is a histidine kinase that autophosphorylates a histidine residue in its active site. The phosphate is then transferred to an aspartate residue in a downstream response regulator, to trigger a response.
+Catalysis of the phosphorylation of a histidine residue in response to detection of an extracellular signal such as a chemical ligand or change in environment, to initiate a change in cell state or activity. The two-component sensor is a histidine kinase that autophosphorylates a histidine residue in its active site. The phosphate is then transferred to an aspartate residue in a downstream response regulator, to trigger a response.
 
 ---
 
@@ -442,7 +441,9 @@ neighbour_genes %>%
 
 - This elements were identified in the same scaffold and Operon Mapper analysis revealed that there is a hypothetical protein cluster near involved in signal transduction from the environment.
 
-- I think that the genes within this integron cassette are proteins related to some environmental response to stress, meaning that in this community microbes exchange genes that allows them cope with a changing environment.
+--
+
+I think that the genes within this integron cassette are proteins related to some environmental response to stress, meaning that in this community microbes exchange genes that allows them cope with a changing environment.
 
 ---
 
