@@ -1,0 +1,219 @@
+Operon	IdGene	Type	COGgene	PosLeft	postRight	Strand	Function
+1
+	LOOBNNKK_00001	CDS	COG1284	514	1410	+	[S] Uncharacterized conserved protein   
+2
+	LOOBNNKK_00002	CDS	COG3607	1461	1859	-	[R] Predicted lactoylglutathione lyase   
+3
+	LOOBNNKK_00003	CDS	COG3542	1979	2464	-	[S] Uncharacterized conserved protein   
+4
+	LOOBNNKK_00004	CDS	COG0552	2760	4088	-	[U] Signal recognition particle GTPase  
+	LOOBNNKK_00005	CDS	COG0561	4091	4918	-	[R] Predicted hydrolases of the HAD superfamily
+	LOOBNNKK_00006	CDS	COG1196	4943	8521	-	[D] Chromosome segregation ATPases   
+	LOOBNNKK_00007	CDS	COG0571	8542	9234	-	[K] dsRNA-specific ribonuclease    
+5
+	LOOBNNKK_00008	CDS	COG0747	9564	11342	-	[E] ABC-type dipeptide transport system, periplasmic component
+	LOOBNNKK_00009	CDS	COG1173	11371	12294	-	[EP] ABC-type dipeptide/oligopeptide/nickel transport systems, permease components
+	LOOBNNKK_00010	CDS	COG0601	12322	13284	-	[EP] ABC-type dipeptide/oligopeptide/nickel transport systems, permease components
+	LOOBNNKK_00011	CDS	COG4608	13284	14228	-	[E] ABC-type oligopeptide transport system, ATPase component
+	LOOBNNKK_00012	CDS	COG0444	14228	15235	-	[EP] ABC-type dipeptide/oligopeptide/nickel transport system, ATPase component
+6
+	LOOBNNKK_00013	CDS	COG0236	15532	15771	-	[IQ] Acyl carrier protein   
+	LOOBNNKK_00014	CDS	COG0416	15908	16909	-	[I] Fatty acid/phospholipid biosynthesis enzyme  
+	LOOBNNKK_00015	CDS	COG1200	17012	19048	-	[LK] RecG-like helicase    
+	LOOBNNKK_00016	CDS	COG1461	19166	20842	-	[R] Predicted kinase related to dihydroxyacetone kinase
+	LOOBNNKK_00017	CDS	COG1302	20925	21287	-	[S] Uncharacterized protein conserved in bacteria 
+7
+	LOOBNNKK_00018	CDS	COG3279	21499	22218	-	[KT] Response regulator of the LytR/AlgR family
+	LOOBNNKK_00019	CDS	COG3290	22220	23050	-	[T] Signal transduction histidine kinase regulating citrate/malate
+8
+	LOOBNNKK_00020	CDS	COG2826	23250	24209	-	[L] Transposase and inactivated derivatives, IS30 family
+9
+	LOOBNNKK_00021	CDS	ROG4413	24272	24613	-	NA
+10
+	LOOBNNKK_00022	CDS	COG1668	24842	26074	-	[CP] ABC-type Na+ efflux pump, permease component
+	LOOBNNKK_00023	CDS	COG4152	26076	26966	-	[R] ABC-type uncharacterized transport system, ATPase component
+11
+	LOOBNNKK_00024	CDS	COG0227	27251	27439	+	[J] Ribosomal protein L28   
+12
+	LOOBNNKK_00025	CDS	COG1564	27542	28186	-	[H] Thiamine pyrophosphokinase    
+	LOOBNNKK_00026	CDS	COG0036	28183	28836	-	[G] Pentose-5-phosphate-3-epimerase     
+	LOOBNNKK_00027	CDS	COG1162	28860	29753	-	[R] Predicted GTPases    
+	LOOBNNKK_00028	CDS	COG2815	30002	32158	-	[S] Uncharacterized protein conserved in bacteria 
+	LOOBNNKK_00029	CDS	COG0631	32155	32904	-	[T] Serine/threonine protein phosphatase   
+	LOOBNNKK_00030	CDS	COG0144	32906	34285	-	[J] tRNA and rRNA cytosine-C5-methylases  
+	LOOBNNKK_00031	CDS	COG0223	34291	35232	-	[J] Methionyl-tRNA formyltransferase    
+	LOOBNNKK_00032	CDS	COG0242	35225	35719	-	[J] N-formylmethionyl-tRNA deformylase    
+	LOOBNNKK_00033	CDS	COG1198	35746	38178	-	[L] Primosomal protein N' (replication factor Y)
+13
+	LOOBNNKK_00034	CDS	COG1758	38333	38635	-	[K] DNA-directed RNA polymerase, subunit K/omega 
+	LOOBNNKK_00035	CDS	COG0194	38640	39254	-	[F] Guanylate kinase    
+14
+	LOOBNNKK_00036	CDS	COG1686	39477	40958	+	[M] D-alanyl-D-alanine carboxypeptidase    
+15
+	LOOBNNKK_00037	CDS	NA	41002	41307	-	NA
+	LOOBNNKK_00038	CDS	COG1561	41363	42247	-	[S] Uncharacterized stress-induced protein   
+	LOOBNNKK_00039	CDS	COG4443	42264	42482	-	[S] Uncharacterized protein conserved in bacteria 
+16
+	LOOBNNKK_00040	CDS	COG4405	42658	43128	-	[S] Uncharacterized protein conserved in bacteria 
+17
+	LOOBNNKK_00041	CDS	COG0800	43295	43948	-	[G] 2-keto-3-deoxy-6-phosphogluconate aldolase    
+	LOOBNNKK_00042	CDS	COG1312	43953	45026	-	[G] D-mannonate dehydratase    
+	LOOBNNKK_00043	CDS	COG2893	45050	45502	-	[G] Phosphotransferase system, mannose/fructose-specific component IIA 
+	LOOBNNKK_00044	CDS	COG3444	45580	46086	-	[G] Phosphotransferase system, mannose/fructose/N-acetylgalactosamine-specific component IIB 
+	LOOBNNKK_00045	CDS	COG3716	46108	46980	-	[G] Phosphotransferase system, mannose/fructose/N-acetylgalactosamine-specific component IID 
+	LOOBNNKK_00046	CDS	COG3715	47001	47831	-	[G] Phosphotransferase system, mannose/fructose/N-acetylgalactosamine-specific component IIC 
+	LOOBNNKK_00047	CDS	COG0371	47844	48950	-	[C] Glycerol dehydrogenase and related enzymes 
+	LOOBNNKK_00048	CDS	COG0111	48965	49966	-	[HE] Phosphoglycerate dehydrogenase and related dehydrogenases 
+	LOOBNNKK_00049	CDS	COG1023	49979	50878	-	[G] Predicted 6-phosphogluconate dehydrogenase   
+18
+	LOOBNNKK_00050	CDS	COG1737	51288	52175	+	[K] Transcriptional regulators    
+19
+	LOOBNNKK_00051	CDS	ROG7176	53302	54018	-	NA
+20
+	LOOBNNKK_00052	CDS	COG0558	54563	55141	-	[I] Phosphatidylglycerophosphate synthase    
+21
+	LOOBNNKK_00053	CDS	COG4585	55240	55452	-	[T] Signal transduction histidine kinase  
+22
+	LOOBNNKK_00054	CDS	COG1426	55577	56443	-	[S] Uncharacterized protein conserved in bacteria 
+23
+	LOOBNNKK_00055	CDS	COG0612	56614	57915	-	[R] Predicted Zn-dependent peptidases   
+	LOOBNNKK_00056	CDS	COG0612	57908	59176	-	[R] Predicted Zn-dependent peptidases   
+24
+	LOOBNNKK_00057	CDS	COG1970	59385	59834	+	[M] Large-conductance mechanosensitive channel   
+25
+	LOOBNNKK_00058	CDS	ROG7668	59875	60573	-	NA
+	LOOBNNKK_00059	CDS	ROG7668	60669	61322	-	NA
+26
+	LOOBNNKK_00060	CDS	COG2188	61718	62431	-	[K] Transcriptional regulators    
+27
+	LOOBNNKK_00061	CDS	COG1554	62726	65437	+	[G] Trehalose and maltose hydrolases (possible phosphorylases)
+	LOOBNNKK_00062	CDS	COG0637	65452	66102	+	[R] Predicted phosphatase/phosphohexomutase    
+28
+	LOOBNNKK_00063	CDS	ROG7946	66562	67155	+	NA
+29
+	LOOBNNKK_00064	CDS	NA	67507	67632	-	NA
+30
+	LOOBNNKK_00065	CDS	COG1266	67915	68448	+	[R] Predicted metal-dependent membrane protease  
+31
+	LOOBNNKK_00066	CDS	COG0462	68500	69471	-	[FE] Phosphoribosylpyrophosphate synthetase    
+32
+	LOOBNNKK_00067	CDS	COG0229	69646	70083	-	[O] Conserved domain frequently associated with peptide
+33
+	LOOBNNKK_00068	CDS	COG0424	70216	70407	-	[D] Nucleotide-binding protein implicated in inhibition of
+	LOOBNNKK_00069	CDS	COG0424	70404	70769	-	[D] Nucleotide-binding protein implicated in inhibition of
+	LOOBNNKK_00070	CDS	COG0323	70794	72926	-	[L] DNA mismatch repair enzyme (predicted ATPase)
+	LOOBNNKK_00071	CDS	COG0249	72958	75534	-	[L] Mismatch repair ATPase (MutS family) 
+	LOOBNNKK_00072	CDS	COG4550	75535	75906	-	[S] Predicted membrane protein   
+	LOOBNNKK_00073	CDS	COG1692	75995	76792	-	[S] Uncharacterized protein conserved in bacteria 
+	LOOBNNKK_00074	CDS	COG1418	76952	78508	-	[R] Predicted HD superfamily hydrolase  
+34
+	LOOBNNKK_00075	CDS	COG3711	78704	80599	-	[K] Transcriptional antiterminator    
+	LOOBNNKK_00076	CDS	COG2723	80677	82122	-	[G] Beta-glucosidase/6-phospho-beta-glucosidase/beta-galactosidase     
+	LOOBNNKK_00077	CDS	COG1447	82122	82463	-	[G] Phosphotransferase system cellobiose-specific component IIA 
+	LOOBNNKK_00078	CDS	COG1455	82483	83733	-	[G] Phosphotransferase system cellobiose-specific component IIC 
+	LOOBNNKK_00079	CDS	COG1440	83738	84043	-	[G] Phosphotransferase system cellobiose-specific component IIB 
+35
+	LOOBNNKK_00080	CDS	COG0468	84203	85249	-	[L] RecA/RadA recombinase    
+	LOOBNNKK_00081	CDS	COG1058	85363	86631	-	[R] Predicted nucleotide-utilizing enzyme related to molybdopterin-biosynthesis
+36
+	LOOBNNKK_00082	CDS	COG2169	86799	88004	+	[F] Adenosine deaminase    
+37
+	LOOBNNKK_00083	CDS	COG2910	88083	88703	-	[R] Putative NADH-flavin reductase   
+	LOOBNNKK_00084	CDS	COG1959	88771	89196	-	[K] Predicted transcriptional regulator   
+38
+	LOOBNNKK_00085	CDS	COG3304	89285	89668	-	[S] Predicted membrane protein   
+39
+	LOOBNNKK_00086	CDS	ROG8359	89832	90623	+	NA
+40
+	LOOBNNKK_00087	CDS	COG0624	90676	91812	-	[E] Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase and related deacylases
+41
+	LOOBNNKK_00088	CDS	ROG7868	91942	92826	-	NA
+	LOOBNNKK_00089	CDS	COG1595	92851	93348	-	[K] DNA-directed RNA polymerase specialized sigma subunit,
+42
+	LOOBNNKK_00090	CDS	ROG7009	93638	95119	-	NA
+	LOOBNNKK_00091	CDS	COG0810	95129	95578	-	[M] Periplasmic protein TonB, links inner and
+43
+	LOOBNNKK_00092	CDS	ROG1429	95680	96756	-	NA
+44
+	LOOBNNKK_00093	CDS	ROG7668	96869	97627	-	NA
+	LOOBNNKK_00094	CDS	ROG7668	97628	98428	-	NA
+	LOOBNNKK_00095	CDS	ROG7668	98433	99167	-	NA
+	LOOBNNKK_00096	CDS	COG4244	99124	99513	-	[S] Predicted membrane protein   
+	LOOBNNKK_00097	CDS	NA	99533	104392	-	NA
+45
+	LOOBNNKK_00098	CDS	COG0657	104760	105773	-	[I] Esterase/lipase     
+46
+	LOOBNNKK_00099	CDS	COG1335	105939	106484	+	[Q] Amidases related to nicotinamidase  
+47
+	LOOBNNKK_00100	CDS	COG1346	106696	107379	-	[M] Putative effector of murein hydrolase 
+	LOOBNNKK_00101	CDS	COG1380	107376	107795	-	[R] Putative effector of murein hydrolase LrgA
+	LOOBNNKK_00102	CDS	COG3279	107947	108675	-	[KT] Response regulator of the LytR/AlgR family
+	LOOBNNKK_00103	CDS	COG3275	108656	110425	-	[T] Putative regulator of cell autolysis 
+48
+	LOOBNNKK_00104	CDS	COG1464	110517	111335	-	[P] ABC-type metal ion transport system, periplasmic
+	LOOBNNKK_00105	CDS	COG2011	111348	112019	-	[P] ABC-type metal ion transport system, permease
+	LOOBNNKK_00106	CDS	COG1135	112016	112738	-	[P] ABC-type metal ion transport system, ATPase
+49
+	LOOBNNKK_00107	CDS	COG1765	113101	113499	-	[O] Predicted redox protein, regulator of disulfide
+50
+	LOOBNNKK_00108	CDS	COG0199	113700	113969	+	[J] Ribosomal protein S14   
+	LOOBNNKK_00109	CDS	COG0267	114080	114229	+	[J] Ribosomal protein L33   
+	LOOBNNKK_00110	CDS	COG0523	114245	115219	+	[R] Putative GTPases (G3E family)  
+	LOOBNNKK_00111	CDS	COG4800	115254	115376	+	[K] Predicted transcriptional regulator with an HTH
+	LOOBNNKK_00112	CDS	COG0803	115397	116932	+	[P] ABC-type metal ion transport system, periplasmic
+51
+	LOOBNNKK_00113	CDS	COG0042	117132	118106	-	[J] tRNA-dihydrouridine synthase    
+52
+	LOOBNNKK_00114	CDS	COG0842	118295	119065	-	[V] ABC-type multidrug transport system, permease component
+	LOOBNNKK_00115	CDS	COG1131	119058	119993	-	[V] ABC-type multidrug transport system, ATPase component
+53
+	LOOBNNKK_00116	CDS	COG1061	120292	123177	-	[KL] DNA or RNA helicases of superfamily
+	LOOBNNKK_00117	CDS	COG1194	123170	123586	-	[L] A/G-specific DNA glycosylase   
+54
+	LOOBNNKK_00118	CDS	ROG4761	124335	125168	-	NA
+55
+	LOOBNNKK_00119	CDS	ROG1751	125268	125894	-	NA
+	LOOBNNKK_00120	CDS	NA	125884	126369	-	NA
+56
+	LOOBNNKK_00121	CDS	COG0103	127035	127427	-	[J] Ribosomal protein S9   
+	LOOBNNKK_00122	CDS	COG0102	127441	127884	-	[J] Ribosomal protein L13   
+57
+	LOOBNNKK_00123	CDS	COG0783	128106	128573	-	[P] DNA-binding ferritin-like protein (oxidative damage protectant)
+58
+	LOOBNNKK_00124	CDS	ROG2546	128792	129421	-	NA
+59
+	LOOBNNKK_00125	CDS	COG1070	129505	131025	-	[G] Sugar (pentulose and hexulose) kinases 
+60
+	LOOBNNKK_00126	CDS	COG1989	131134	131826	+	[NOU] Type II secretory pathway, prepilin signal
+61
+	LOOBNNKK_00127	CDS	COG0086	131875	135528	-	[K] DNA-directed RNA polymerase, beta' subunit/160 kD
+	LOOBNNKK_00128	CDS	COG0085	135695	139309	-	[K] DNA-directed RNA polymerase, beta subunit/140 kD
+62
+	LOOBNNKK_00129	CDS	COG3478	139729	139944	-	[R] Predicted nucleic-acid-binding protein containing a Zn-ribbon
+63
+	LOOBNNKK_00130	CDS	COG0340	140083	141075	+	[H] Biotin-(acetyl-CoA carboxylase) ligase   
+64
+	LOOBNNKK_00131	CDS	ROG1218	141301	141741	-	NA
+	LOOBNNKK_00132	CDS	COG1106	141750	143045	-	[R] Predicted ATPases    
+65
+	LOOBNNKK_00133	CDS	COG1316	143507	145123	+	[K] Transcriptional regulator    
+	LOOBNNKK_00134	CDS	ROG1694	145147	145398	+	NA
+66
+	LOOBNNKK_00135	CDS	COG0552	145370	148372	-	[U] Signal recognition particle GTPase  
+	LOOBNNKK_00136	CDS	ROG5624	148359	148721	-	NA
+67
+	LOOBNNKK_00137	CDS	COG1575	149107	150054	-	[H] 1,4-dihydroxy-2-naphthoate octaprenyltransferase    
+	LOOBNNKK_00138	CDS	COG1477	150068	151135	-	[H] Membrane-associated lipoprotein involved in thiamine biosynthesis
+	LOOBNNKK_00139	CDS	COG4939	151390	152319	-	[S] Major membrane immunogen, membrane-anchored lipoprotein 
+68
+	LOOBNNKK_00140	CDS	COG1252	152597	154543	+	[C] NADH dehydrogenase, FAD-containing subunit  
+69
+	LOOBNNKK_00141	CDS	COG5341	154759	155181	+	[S] Uncharacterized protein conserved in bacteria 
+	LOOBNNKK_00142	CDS	COG4769	155193	155750	+	[S] Predicted membrane protein   
+	LOOBNNKK_00143	CDS	COG0142	155788	156774	+	[H] Geranylgeranyl pyrophosphate synthase   
+70
+	LOOBNNKK_00144	CDS	ROG6502	156836	157180	-	NA
+71
+	LOOBNNKK_00145	CDS	NA	157268	159073	-	NA
+72
+	LOOBNNKK_00146	CDS	NA	159605	159805	-	NA

@@ -1,0 +1,4 @@
+# cmd: integron_finder --local-max --func-annot 0118A1023.contigs.fa
+ID_integron	ID_replicon	element	pos_beg	pos_end	strand	evalue	type_elt	annotation	model	type	default	distance_2attC	considered_topology
+integron_01	qb307082014_I_scaffold_18	attc_001	120781	120823	-1	0.43	attC	attC	attc_4	CALIN	No	NA	lin
+integron_01	qb307082014_I_scaffold_18	attc_002	122724	122771	-1	0.43	attC	attC	attc_4	CALIN	No	1901.0	lin

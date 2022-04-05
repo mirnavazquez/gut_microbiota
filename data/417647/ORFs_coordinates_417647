@@ -1,0 +1,146 @@
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	514	1410	.	+	0	ID=LOOBNNKK_00001;product=UPF0750_membrane_protein_YvjA
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	1461	1859	.	-	0	ID=LOOBNNKK_00002;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	1979	2464	.	-	0	ID=LOOBNNKK_00003;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	2760	4088	.	-	0	ID=LOOBNNKK_00004;product=Signal_recognition_particle_receptor_FtsY
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	4091	4918	.	-	0	ID=LOOBNNKK_00005;product=Sugar_phosphatase_YidA
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	4943	8521	.	-	0	ID=LOOBNNKK_00006;product=Chromosome_partition_protein_Smc
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	8542	9234	.	-	0	ID=LOOBNNKK_00007;product=Ribonuclease_3
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	9564	11342	.	-	0	ID=LOOBNNKK_00008;product=Oligopeptide-binding_protein_OppA
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	11371	12294	.	-	0	ID=LOOBNNKK_00009;product=Oligopeptide_transport_system_permease_protein_OppC
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	12322	13284	.	-	0	ID=LOOBNNKK_00010;product=Oligopeptide_transport_system_permease_protein_OppB
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	13284	14228	.	-	0	ID=LOOBNNKK_00011;product=Oligopeptide_transport_ATP-binding_protein_OppF
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	14228	15235	.	-	0	ID=LOOBNNKK_00012;product=Oligopeptide_transport_ATP-binding_protein_OppD
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	15532	15771	.	-	0	ID=LOOBNNKK_00013;product=Acyl_carrier_protein
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	15908	16909	.	-	0	ID=LOOBNNKK_00014;product=Phosphate_acyltransferase
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	17012	19048	.	-	0	ID=LOOBNNKK_00015;product=ATP-dependent_DNA_helicase_RecG
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	19166	20842	.	-	0	ID=LOOBNNKK_00016;product=Uncharacterized_protein_YloV
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	20925	21287	.	-	0	ID=LOOBNNKK_00017;product=Uncharacterized_protein_Spy1614
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	21499	22218	.	-	0	ID=LOOBNNKK_00018;product=Accessory_gene_regulator_protein_A
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	22220	23050	.	-	0	ID=LOOBNNKK_00019;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	23250	24209	.	-	0	ID=LOOBNNKK_00020;product=Transposase_for_insertion_sequence_element_IS1086
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	24272	24613	.	-	0	ID=LOOBNNKK_00021;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	24842	26074	.	-	0	ID=LOOBNNKK_00022;product=Uncharacterized_protein_YhaP
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	26076	26966	.	-	0	ID=LOOBNNKK_00023;product=Uncharacterized_ABC_transporter_ATP-binding_protein_YhaQ
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	27251	27439	.	+	0	ID=LOOBNNKK_00024;product=50S_ribosomal_protein_L28
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	27542	28186	.	-	0	ID=LOOBNNKK_00025;product=Thiamine_pyrophosphokinase
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	28183	28836	.	-	0	ID=LOOBNNKK_00026;product=Ribulose-phosphate_3-epimerase
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	28860	29753	.	-	0	ID=LOOBNNKK_00027;product=Putative_ribosome_biogenesis_GTPase_RsgA
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	30002	32158	.	-	0	ID=LOOBNNKK_00028;product=Serine/threonine-protein_kinase_PrkC
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	32155	32904	.	-	0	ID=LOOBNNKK_00029;product=Putative_protein_phosphatase_2C-type
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	32906	34285	.	-	0	ID=LOOBNNKK_00030;product=Ribosomal_RNA_small_subunit_methyltransferase_B
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	34291	35232	.	-	0	ID=LOOBNNKK_00031;product=Methionyl-tRNA_formyltransferase
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	35225	35719	.	-	0	ID=LOOBNNKK_00032;product=Peptide_deformylase_1
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	35746	38178	.	-	0	ID=LOOBNNKK_00033;product=Primosomal_protein_N'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	38333	38635	.	-	0	ID=LOOBNNKK_00034;product=DNA-directed_RNA_polymerase_subunit_omega
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	38640	39254	.	-	0	ID=LOOBNNKK_00035;product=Guanylate_kinase
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	39477	40958	.	+	0	ID=LOOBNNKK_00036;product=D-alanyl-D-alanine_carboxypeptidase_DacA
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	41002	41307	.	-	0	ID=LOOBNNKK_00037;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	41363	42247	.	-	0	ID=LOOBNNKK_00038;product=UPF0701_protein_YloC
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	42264	42482	.	-	0	ID=LOOBNNKK_00039;product=Uncharacterized_protein_TP_0352
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	42658	43128	.	-	0	ID=LOOBNNKK_00040;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	43295	43948	.	-	0	ID=LOOBNNKK_00041;product=Putative_KHG/KDPG_aldolase
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	43953	45026	.	-	0	ID=LOOBNNKK_00042;product=Mannonate_dehydratase
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	45050	45502	.	-	0	ID=LOOBNNKK_00043;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	45580	46086	.	-	0	ID=LOOBNNKK_00044;product=PTS_system_sorbose-specific_EIIB_component
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	46108	46980	.	-	0	ID=LOOBNNKK_00045;product=PTS_system_mannose-specific_EIID_component
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	47001	47831	.	-	0	ID=LOOBNNKK_00046;product=PTS_system_sorbose-specific_EIIC_component
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	47844	48950	.	-	0	ID=LOOBNNKK_00047;product=Uncharacterized_oxidoreductase_YbdH
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	48965	49966	.	-	0	ID=LOOBNNKK_00048;product=D-3-phosphoglycerate_dehydrogenase
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	49979	50878	.	-	0	ID=LOOBNNKK_00049;product=Putative_6-phosphogluconate_dehydrogenase_YqeC
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	51288	52175	.	+	0	ID=LOOBNNKK_00050;product=HTH-type_transcriptional_regulator_MurR
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	53302	54018	.	-	0	ID=LOOBNNKK_00051;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	54563	55141	.	-	0	ID=LOOBNNKK_00052;product=CDP-diacylglycerol--glycerol-3-phosphate_3-phosphatidyltransferase
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	55240	55452	.	-	0	ID=LOOBNNKK_00053;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	55577	56443	.	-	0	ID=LOOBNNKK_00054;product=Uncharacterized_membrane_protein_YmfM
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	56614	57915	.	-	0	ID=LOOBNNKK_00055;product=Uncharacterized_zinc_protease_YmfH
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	57908	59176	.	-	0	ID=LOOBNNKK_00056;product=Probable_inactive_metalloprotease_YmfF
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	59385	59834	.	+	0	ID=LOOBNNKK_00057;product=Large-conductance_mechanosensitive_channel
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	59875	60573	.	-	0	ID=LOOBNNKK_00058;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	60669	61322	.	-	0	ID=LOOBNNKK_00059;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	61718	62431	.	-	0	ID=LOOBNNKK_00060;product=HTH-type_transcriptional_regulator_TreR
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	62726	65437	.	+	0	ID=LOOBNNKK_00061;product=Trehalose_6-phosphate_phosphorylase
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	65452	66102	.	+	0	ID=LOOBNNKK_00062;product=Beta-phosphoglucomutase
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	66562	67155	.	+	0	ID=LOOBNNKK_00063;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	67507	67632	.	-	0	ID=LOOBNNKK_00064;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	67915	68448	.	+	0	ID=LOOBNNKK_00065;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	68500	69471	.	-	0	ID=LOOBNNKK_00066;product=Ribose-phosphate_pyrophosphokinase_2
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	69646	70083	.	-	0	ID=LOOBNNKK_00067;product=Peptide_methionine_sulfoxide_reductase_MsrB
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	70216	70407	.	-	0	ID=LOOBNNKK_00068;product=Maf-like_protein_EF_3165
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	70404	70769	.	-	0	ID=LOOBNNKK_00069;product=Maf-like_protein_EF_3165
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	70794	72926	.	-	0	ID=LOOBNNKK_00070;product=DNA_mismatch_repair_protein_MutL
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	72958	75534	.	-	0	ID=LOOBNNKK_00071;product=DNA_mismatch_repair_protein_MutS
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	75535	75906	.	-	0	ID=LOOBNNKK_00072;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	75995	76792	.	-	0	ID=LOOBNNKK_00073;product=Uncharacterized_protein_ymdB
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	76952	78508	.	-	0	ID=LOOBNNKK_00074;product=Ribonuclease_Y
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	78704	80599	.	-	0	ID=LOOBNNKK_00075;product=Transcriptional_regulator_ManR
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	80677	82122	.	-	0	ID=LOOBNNKK_00076;product=Aryl-phospho-beta-D-glucosidase_BglH
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	82122	82463	.	-	0	ID=LOOBNNKK_00077;product=PTS_system_lactose-specific_EIIA_component
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	82483	83733	.	-	0	ID=LOOBNNKK_00078;product=Lichenan_permease_IIC_component
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	83738	84043	.	-	0	ID=LOOBNNKK_00079;product=PTS_system_cellobiose-specific_EIIB_component
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	84203	85249	.	-	0	ID=LOOBNNKK_00080;product=Protein_RecA
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	85363	86631	.	-	0	ID=LOOBNNKK_00081;product=Putative_competence-damage_inducible_protein
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	86799	88004	.	+	0	ID=LOOBNNKK_00082;product=Uncharacterized_membrane_protein_YttA
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	88083	88703	.	-	0	ID=LOOBNNKK_00083;product=Uncharacterized_protein_YwnB
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	88771	89196	.	-	0	ID=LOOBNNKK_00084;product=Putative_HTH-type_transcriptional_regulator_YwnA
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	89285	89668	.	-	0	ID=LOOBNNKK_00085;product=Inner_membrane_protein_YccF
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	89832	90623	.	+	0	ID=LOOBNNKK_00086;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	90676	91812	.	-	0	ID=LOOBNNKK_00087;product=Probable_succinyl-diaminopimelate_desuccinylase
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	91942	92826	.	-	0	ID=LOOBNNKK_00088;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	92851	93348	.	-	0	ID=LOOBNNKK_00089;product=RNA_polymerase_sigma_factor_SigV
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	93638	95119	.	-	0	ID=LOOBNNKK_00090;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	95129	95578	.	-	0	ID=LOOBNNKK_00091;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	95680	96756	.	-	0	ID=LOOBNNKK_00092;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	96869	97627	.	-	0	ID=LOOBNNKK_00093;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	97628	98428	.	-	0	ID=LOOBNNKK_00094;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	98433	99167	.	-	0	ID=LOOBNNKK_00095;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	99124	99513	.	-	0	ID=LOOBNNKK_00096;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	99533	104392	.	-	0	ID=LOOBNNKK_00097;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	104760	105773	.	-	0	ID=LOOBNNKK_00098;product=Probable_carboxylesterase_17
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	105939	106484	.	+	0	ID=LOOBNNKK_00099;product=Uncharacterized_isochorismatase_family_protein_PncA
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	106696	107379	.	-	0	ID=LOOBNNKK_00100;product=Antiholin-like_protein_LrgB
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	107376	107795	.	-	0	ID=LOOBNNKK_00101;product=Antiholin-like_protein_LrgA
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	107947	108675	.	-	0	ID=LOOBNNKK_00102;product=Sensory_transduction_protein_LytT
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	108656	110425	.	-	0	ID=LOOBNNKK_00103;product=Sensor_protein_LytS
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	110517	111335	.	-	0	ID=LOOBNNKK_00104;product=D-methionine-binding_lipoprotein_MetQ
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	111348	112019	.	-	0	ID=LOOBNNKK_00105;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	112016	112738	.	-	0	ID=LOOBNNKK_00106;product=Methionine_import_ATP-binding_protein_MetN_1
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	113101	113499	.	-	0	ID=LOOBNNKK_00107;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	113700	113969	.	+	0	ID=LOOBNNKK_00108;product=30S_ribosomal_protein_S14_2
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	114080	114229	.	+	0	ID=LOOBNNKK_00109;product=50S_ribosomal_protein_L33_4
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	114245	115219	.	+	0	ID=LOOBNNKK_00110;product=Uncharacterized_GTP-binding_protein_YjiA
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	115254	115376	.	+	0	ID=LOOBNNKK_00111;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	115397	116932	.	+	0	ID=LOOBNNKK_00112;product=Zinc-binding_lipoprotein_AdcA
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	117132	118106	.	-	0	ID=LOOBNNKK_00113;product=Probable_tRNA-dihydrouridine_synthase_2
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	118295	119065	.	-	0	ID=LOOBNNKK_00114;product=Inner_membrane_transport_permease_YadH
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	119058	119993	.	-	0	ID=LOOBNNKK_00115;product=Uncharacterized_ABC_transporter_ATP-binding_protein_YadG
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	120292	123177	.	-	0	ID=LOOBNNKK_00116;product=Putative_ATP-dependent_helicase_IRC3
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	123170	123586	.	-	0	ID=LOOBNNKK_00117;product=8-oxo-dGTP_diphosphatase
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	124335	125168	.	-	0	ID=LOOBNNKK_00118;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	125268	125894	.	-	0	ID=LOOBNNKK_00119;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	125884	126369	.	-	0	ID=LOOBNNKK_00120;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	127035	127427	.	-	0	ID=LOOBNNKK_00121;product=30S_ribosomal_protein_S9
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	127441	127884	.	-	0	ID=LOOBNNKK_00122;product=50S_ribosomal_protein_L13
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	128106	128573	.	-	0	ID=LOOBNNKK_00123;product=DNA_protection_during_starvation_protein
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	128792	129421	.	-	0	ID=LOOBNNKK_00124;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	129505	131025	.	-	0	ID=LOOBNNKK_00125;product=Gluconokinase
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	131134	131826	.	+	0	ID=LOOBNNKK_00126;product=Type_4_prepilin-like_proteins_leader_peptide-processing_enzyme
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	131875	135528	.	-	0	ID=LOOBNNKK_00127;product=DNA-directed_RNA_polymerase_subunit_beta'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	135695	139309	.	-	0	ID=LOOBNNKK_00128;product=DNA-directed_RNA_polymerase_subunit_beta
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	139729	139944	.	-	0	ID=LOOBNNKK_00129;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	140083	141075	.	+	0	ID=LOOBNNKK_00130;product=Bifunctional_ligase/repressor_BirA
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	141301	141741	.	-	0	ID=LOOBNNKK_00131;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	141750	143045	.	-	0	ID=LOOBNNKK_00132;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	143507	145123	.	+	0	ID=LOOBNNKK_00133;product=Transcriptional_regulator_LytR
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	145147	145398	.	+	0	ID=LOOBNNKK_00134;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	145370	148372	.	-	0	ID=LOOBNNKK_00135;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	148359	148721	.	-	0	ID=LOOBNNKK_00136;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	149107	150054	.	-	0	ID=LOOBNNKK_00137;product=14-dihydroxy-2-naphthoate_octaprenyltransferase
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	150068	151135	.	-	0	ID=LOOBNNKK_00138;product=FAD:protein_FMN_transferase
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	151390	152319	.	-	0	ID=LOOBNNKK_00139;product=15_kDa_lipoprotein
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	152597	154543	.	+	0	ID=LOOBNNKK_00140;product=NADH_dehydrogenase-like_protein_YjlD
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	154759	155181	.	+	0	ID=LOOBNNKK_00141;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	155193	155750	.	+	0	ID=LOOBNNKK_00142;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	155788	156774	.	+	0	ID=LOOBNNKK_00143;product=Heptaprenyl_diphosphate_synthase_component_2
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	156836	157180	.	-	0	ID=LOOBNNKK_00144;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	157268	159073	.	-	0	ID=LOOBNNKK_00145;product='hypothetical protein'
+qb307082014_I_scaffold_-0000000001	Prodigal:002006	CDS	159605	159805	.	-	0	ID=LOOBNNKK_00146;product='hypothetical protein'

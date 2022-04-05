@@ -1,0 +1,23 @@
+---
+title: "2022-04-04-BLAST-IS_elements"
+author: "Mirna Vazquez Rosas Landa"
+date: "4/4/2022"
+output: html_document
+---
+
+# Blast to nrDB.
+
+```{bash}
+diamond blastp --db /home/DB/DIAMOND/NCBI-NR/NCBI-NR.dmnd --query 0118A1023.contigs.fa.orf.faa --out 0118A1023.contigs.fa.orf_results.tsv --threads 20 --outfmt 6  qtitle stitle pident length qstart qend sstart send evalue bitscore --header
+```
+
+# InterproScan
+
+```{bash}
+sed  "s/\*//g" 0118A1023.contigs.fa.orf.faa > 0118A1023.contigs.fa.orf_interpro.faa
+/home/kathrynappler/scripts/my_interproscan/interproscan-5.52-86.0/interproscan.sh -cpu 20 -goterms -pa -i  0118A1023.contigs.fa.orf_interpro.faa > Log_Interpro_Scan_$i.txt
+```
+
+
+
+
