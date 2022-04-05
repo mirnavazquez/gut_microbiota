@@ -1,0 +1,39 @@
+---
+title: "2022_04_04-PHASTER-Looking_for_phages"
+author: "Mirna Vazquez Rosas Landa"
+date: "4/5/2022"
+output: html_document
+---
+# Run PHASTER
+
+You can run a bunch of jobs within a loop using the API. I have done it before for one of my previous publications. 
+
+- [Publication](https://academic.oup.com/femspd/article/75/5/ftx059/3861975?login=true)
+- [Code](https://github.com/actevol/Comparative_genomics_of_virulence_factors)
+
+Here I just run it like that
+
+```{bash echo=TRUE, eval=F}
+wget --post-file="0118A1023.contigs.fa" "http://phaster.ca/phaster_api" -O 0118A1023.contigs.fa.phaster
+```
+
+And then you have to wait... And I still waiting
+
+This way you can access to the job list and see how long is last for your job to run:
+
+```{bash  echo=TRUE, eval=F}
+wget "http://phaster.ca/phaster_api?acc=ZZ_cd44018c8e" -O Output_filename
+```
+
+# How would I analyze PHASTER results?
+
+After the files were processed, we downloaded the results:
+```{bash  echo=TRUE, eval=FALSE}
+wget -O ID_FROM.phaster  "http://phaster.ca/jobs/ID_FROM.phaster/summary.txt"
+```
+
+Then I would extract the number or intact prophages in the metagenome.
+
+```{bash  echo=TRUE, eval=FALSE}
+for i in $(*.fasta.phaster); do grep "intact prophage" $i >>number_phages; done
+```

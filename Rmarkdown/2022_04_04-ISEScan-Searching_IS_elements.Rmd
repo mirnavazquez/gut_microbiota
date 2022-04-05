@@ -1,0 +1,110 @@
+---
+title: "2022_04_04-ISEScan-IS_elements"
+author: "Mirna Vazquez Rosas Landa"
+date: "4/4/2022"
+output: html_document
+---
+# Install **ISEScan**
+
+- Create a conda environment
+
+```{bash, eval=FALSE, echo=TRUE}
+conda create -n isescan_env
+```
+
+- Activate the conda environment
+
+```{bash, eval=FALSE, echo=TRUE}
+conda activate isescan_env
+```
+
+- Add Bioconda channels
+
+```{bash, eval=FALSE, echo=TRUE}
+conda config --add channels defaults
+conda config --add channels bioconda
+conda config --add channels conda-forge
+```
+
+- Conda install
+
+```{bash, eval=FALSE, echo=TRUE}
+conda install  -n isescan_env -c conda isescan
+```
+
+# Exploring the output of **ISEScan**
+
+- The program uses [FragGeneScan](https://pubmed.ncbi.nlm.nih.gov/20805240/) to make the protein prediction, so one first exciting thing to look at is **how many proteins were inferred?** 
+
+```{bash echo=TRUE, eval=F}
+grep -c ">" 0118A1023.contigs.fa.faa
+```
+
+Number of sequences: 15,164
+
+- **How many elements were inferred?** One first easy way to do it is to count the number of rows in the output file.
+
+```{bash echo=TRUE, eval=F}
+ wc -l 0118A1023.contigs.fa.tsv
+```
+
+Number of elements: 71
+
+- We can take a quick look to the output file.
+
+```{r include=FALSE}
+library(tidyverse)
+Insertion<-read_delim("../data/0118A1023.contigs.fa.tsv", 
+           delim = "\t") # Reading the output file of ISEScan using tabular format.
+```
+
+- Which families are more abundant?
+
+```{r, echo=T, fig.height=5}
+more_abundant<-Insertion %>%
+  count(family) %>% # Count the number of elements in the family column
+  arrange(-n) # Arrange the number from the from largest to smallest
+head(more_abundant) # Show the top six
+```
+
+**ISEScan** has an extra column indicating if the element is **complete** or **partial**; therefore, I filter the output file to find the most abundant complete elements in the metagenome.  
+
+- Which ISs are complete?
+
+```{r, echo=T}
+Insertion %>%
+  filter(type == "c") %>% # Filter the rows that had a "c" in the type column, that stands for complete
+  count(family) %>%
+  arrange(-n)
+```
+
+# Exploring the output of **ISEScan** to look for potential new elements.
+
+- I run InterproScan to identify transposases domains in the sequences that were predicted with  [FragGeneScan](https://pubmed.ncbi.nlm.nih.gov/20805240/) by **ISEScan**.
+
+```{bash echo=TRUE, eval=F}
+sed  "s/\*//g" 0118A1023.contigs.fa.orf.faa > 0118A1023.contigs.fa.orf_interpro.faa # Remove * from sequences  
+interproscan.sh -cpu 20 -goterms -pa -i  0118A1023.contigs.fa.orf_interpr.faa > Log_Interpro_Scan_$i.txt
+```
+
+- Then I extracted a list of the IDs of the **partial** sequences.
+
+```{r echo=TRUE}
+list_partial<-Insertion %>%
+  filter(type == "p") %>% # Here I am filtering the output table to extract the "partial" hits.
+  select(seqID, orfBegin, orfEnd, strand) %>% # Select certain columns on the table
+  unite("seq_name", c("seqID", "orfBegin", "orfEnd", "strand"), sep="_") %>% # The output of ISEScan uses as sequence ID the name of the scaffold so I create a new colum merging the information from the start and end of the sequence to be able to match the results with InterproScan
+  distinct() %>% # Remove duplicated
+  pull() # Create a vector
+```
+
+- I read the output and filter the sequences based on the list.
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+interpro<-read_delim("../data/0118A1023.contigs.fa.orf_interpro.faa.tsv", delim="\t", col_names = F) %>%
+  filter(X1 %in% list_partial) %>% # Filter the table using the IDs extracted previously
+  filter(X4 == "Pfam") %>% # Filter the output to get the PFAM domains
+  select(X1, X5, X6) %>%
+  filter(str_detect(X6, "Transposase")) # Search for elements annotated as transposases
+```
+
