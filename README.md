@@ -4,9 +4,9 @@ In the beginning, the mobile genetic elements were associated with pathogenic st
 
 I started my search by looking for these three types of mobile elements.
 
-- [Insertion sequences]()
-- [Integrons]()
-- [Phages]()
+- [Insertion sequences](https://github.com/mirnavazquez/gut_microbiota/blob/main/Rmarkdown/2022_04_04-ISEScan-Searching_IS_elements.Rmd)
+- [Integrons](https://github.com/mirnavazquez/gut_microbiota/blob/main/Rmarkdown/2022_04_04-IntegronFinder-Searching_integrons.Rmd)
+- [Phages](https://github.com/mirnavazquez/gut_microbiota/blob/main/Rmarkdown/2022_04_04-PHASTER-Looking_for_phages.Rmd)
 
 The scripts are in a directory called [R](https://github.com/mirnavazquez/gut_microbiota/tree/main/R).
 
