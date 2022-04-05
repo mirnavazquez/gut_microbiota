@@ -1,0 +1,57 @@
+---
+title: "2022_04_04-IntegronFinder-Searching_integrons"
+author: "Mirna Vazquez Rosas Landa"
+date: "4/5/2022"
+output: html_document
+---
+# Install **Integron Finder**
+
+- Create a conda environment
+
+```{bash, eval=FALSE, echo=TRUE}
+conda create -n integronFinder
+```
+
+- Activate the conda environment
+
+```{bash, eval=FALSE, echo=TRUE}
+conda activate integronFinder
+```
+
+- Conda install
+
+```{bash, eval=FALSE, echo=TRUE}
+ conda install integron_finder -n integronFinder
+```
+
+# Run **Integron Finder**
+
+```{bash, eval=FALSE, echo=TRUE}
+integron_finder --local-max --func-annot 0118A1023.contigs.fa
+```
+
+# Exploring **Integron Finder** output
+
+The output of the program contain 3 files:
+
+- **0118A1023.contigs.integrons**: A file with all integrons and their elements detected in all sequences in the input file. 
+
+- **0118A1023.contigs.summary**: A summary file with the number and type of integrons per sequence.
+
+- **integron_finder.out**: A copy standard output. 
+
+```{r  echo=TRUE, message=FALSE, warning=FALSE}
+library(tidyverse)
+integrons<-read_delim("../data/0118A1023.contigs.integrons", delim = "\t",
+           skip = 1) 
+```
+
+Integron finder can predict three types of elements described in [Cury et al., 2016](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4889954/):
+
+- **Complete integrons**: Include an integrase and at least one attC site
+
+- **CALIN**: The clusters of attC sites lacking integron-integrases (CALIN) are composed of at least two attC sites.
+
+- **In0**: The In0 elements are composed of an integron integrase and no attC sites.
+
+In this metagenome I was only able to identify two **CALIN** elements.
